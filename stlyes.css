@@ -1,0 +1,36 @@
+html {
+    background-color: aqua;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 80px;
+    width: 75%;
+}
+
+.submit {
+    width: initial;
+    position: initial;
+}
+
+.formRow {display: flex;
+    flex: 0 0 50px;
+}
